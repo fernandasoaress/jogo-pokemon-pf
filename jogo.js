@@ -5,7 +5,7 @@ function entrarNaFloresta() {
   if (floresta.toLowerCase() == 'sim') {
     return (location = './fase2.html')
   } else if (floresta.toLowerCase() == 'não') {
-    return (location = './pagina-inicial.html')
+    return (location = './index.html')
   }
 }
 
@@ -15,7 +15,7 @@ function seguirPokemon() {
   if (pokemon.toLowerCase() == 'sim') {
     return (location = './fase4.html')
   } else if (pokemon.toLowerCase() == 'não') {
-    return (location = './pagina-inicial.html')
+    return (location = './index.html')
   }
 }
 
@@ -25,7 +25,7 @@ function equipeRocket() {
   if (rocket.toLowerCase() == 'sim') {
     return (location = './fase-final.html')
   } else if (rocket.toLowerCase() == 'não') {
-    return (location = './pagina-inicial.html')
+    return (location = './index.html')
   }
 }
 
@@ -36,7 +36,7 @@ function ultimaBatalha() {
   if (charmander.toLowerCase() == 'sim') {
     return (location = './fim-do-jogo.html')
   } else if (charmander.toLowerCase() == 'não') {
-    return (location = './pagina-inicial.html')
+    return (location = './index.html')
   }
 }
 
@@ -46,7 +46,7 @@ function ultimaBatalha2() {
   if (onix.toLowerCase() == 'sim') {
     return (location = './fim-do-jogo.html')
   } else if (onix.toLowerCase() == 'não') {
-    return (location = './pagina-inicial.html')
+    return (location = './index.html')
   }
 }
 
@@ -56,6 +56,6 @@ function ultimaBatalha3() {
   if (psyduck.toLowerCase() == 'sim') {
     return (location = './game-over.html')
   } else if (psyduck.toLowerCase() == 'não') {
-    return (location = './pagina-inicial.html')
+    return (location = './index.html')
   }
 }
