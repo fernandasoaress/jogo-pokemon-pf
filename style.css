@@ -42,6 +42,9 @@
   text-align: center;
   padding: 20px 20px;
 }
+.iniciar-jogo a {
+  text-decoration: none;
+}
 
 .iniciar-jogo:hover span {
   font-size: 40px;
@@ -262,14 +265,14 @@ strong {
 
 /*css ultima batalha*/
 .ultima-batalha {
-  background-image: url('./Projeto-final-imagens/background-charmander.jpg');
+  background-image: url('./Projeto-final-imagens/charmande-1.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 /*css ultima batalha 2*/
 
 .ultima-batalha2 {
-  background-image: url('./Projeto-final-imagens/background-onix.png');
+  background-image: url('./Projeto-final-imagens/onix1.png');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -277,7 +280,7 @@ strong {
 /*css ultima batalha8*/
 
 .ultima-batalha3 {
-  background-image: url('./Projeto-final-imagens/background-psyduck.jpeg');
+  background-image: url('./Projeto-final-imagens/psyduck-ataque.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -293,9 +296,7 @@ strong {
 /*css gameover */
 
 .game-over {
-  background-image: url('./Projeto-final-imagens/game-over2.jpg');
+  background-image: url('./Projeto-final-imagens/Pokémon-Equipe-Rocket-capa.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
-/*css game over staryu*/
